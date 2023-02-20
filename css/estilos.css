@@ -240,10 +240,11 @@ input{
 
 
     #check:checked ~ .nav_lista_navegacion .menu{
-        left: 30%;
+        left: 52%;
+        width: min-content;
     }
 
-    /* DESPLEGABLE MOVIL*/
+    /* DESPLEGABLE MOVIL*/    tonces como se prueba 
     
     .menu ul {
         
@@ -269,16 +270,16 @@ input{
     .menu li:hover > ul li a{
         padding: 25px;
     }
-    .menu li:hover > ul{
-        width: 100%;
-        left: -100%;
-        transition: all 5s;
+
+
+    .menu li:hover > ul li{
     }
 
     
     /*Cambio de posicion del apartado*/
 
     .menu li:hover{
+
     }
 
 }
