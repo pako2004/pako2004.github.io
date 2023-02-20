@@ -7,11 +7,7 @@
     box-sizing: border-box;
 }
 
-/* fuap cambios*/
 
-menu{
-    background-color: blue;
-}
 
 /****** NAV ************************************************************************************************/
 
@@ -244,7 +240,7 @@ input{
 
 
     #check:checked ~ .nav_lista_navegacion .menu{
-        left: 70%;
+        left: 30%;
     }
 
     /* DESPLEGABLE MOVIL*/
