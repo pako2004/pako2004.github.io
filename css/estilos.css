@@ -191,21 +191,7 @@ input{
     };
 }
 /*** MOVIL ***/
-@media(max-width: 858px){
-
-    ul {
-        display: flex;
-    }
-    .despegable {
-        order: 1;
-    }
-    @media all and (min-width: 960px) {
-        .mlink {
-            order: 0;
-        }
-    }
-    Menu { display: flex }
-
+@media(max-width: 500px){
 
 
     .checkbtn{
@@ -256,7 +242,7 @@ input{
 
 
     #check:checked ~ .nav_lista_navegacion .menu{
-        left: 52%;
+        left: 60%;
         width: min-content;
     }
 
@@ -272,7 +258,7 @@ input{
         padding:0;          
        }
     
-    
+
 
 
     .menu li:hover > ul li {
