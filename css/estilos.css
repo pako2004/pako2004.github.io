@@ -192,6 +192,22 @@ input{
 }
 /*** MOVIL ***/
 @media(max-width: 858px){
+
+    ul {
+        display: flex;
+    }
+    .despegable {
+        order: 1;
+    }
+    @media all and (min-width: 960px) {
+        .mlink {
+            order: 0;
+        }
+    }
+    Menu { display: flex }
+
+
+
     .checkbtn{
         display: block;
     }
@@ -244,7 +260,7 @@ input{
         width: min-content;
     }
 
-    /* DESPLEGABLE MOVIL*/    tonces como se prueba 
+    /* DESPLEGABLE MOVIL*/     
     
     .menu ul {
         
