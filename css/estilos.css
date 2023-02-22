@@ -246,28 +246,32 @@ input{
         width: min-content;
     }
 
+    
+
     /* DESPLEGABLE MOVIL*/     
     
     .menu ul {
         
-        display:none;
+        
         position:absolute;
         top:100%;
-        left:100%;
+        left:-100%;
         background-color:rgb(72, 72, 72);
         padding:0;          
+        width: 100%;
        }
     
 
 
 
     .menu li:hover > ul li {
-                               
         z-index: 18;
         display: block;
         background:rgb(49, 49, 49);
         height:auto;                                                                 
        }
+
+    
 
     .menu li:hover > ul li a{
         padding: 25px;
