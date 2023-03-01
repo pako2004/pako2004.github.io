@@ -535,21 +535,53 @@ footer{
 
 .box_footer{
     color: white;
-    width: 99.25vw;
+    width: 50.25vw;
     padding: 50px;
     line-height:35px;
 }
+
+.box_footer_iconos{
+    padding: 50px;
+    width: 50vw;
+}   
 
 
 
 a{
     color: white;
     }
+    
+    @media (max-width: 500px){
 
-    @media (max-width: 391px){
+        .box_footer{
+            padding: 10px;
+            margin-right: 10px;
+            font-size: 12px;
+            width: 50vw;
+
+        }
+
+        .ico_redes{
+
+            padding: 5;
+            margin: 5px;
+            width: 30px;
+
+        }
+
+        .box_footer_iconos{
+            
+            padding-top: 5px;
+            padding-right:20px ;
+            padding-left: 20px;
+            padding-bottom: 0px;
+        }
+
+
+
+
 
         
-
 
 
     }
