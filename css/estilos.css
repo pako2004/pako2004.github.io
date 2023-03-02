@@ -98,6 +98,7 @@ input{
     padding-left: 20px;
     display: block;
     color: rgb(255, 255, 255);
+
 }
 
 .menu li a:hover{
@@ -133,6 +134,8 @@ input{
     background-color:rgb(73, 72, 72);
     padding:0;
    }
+
+   
    
    /* items del menu desplegable */
    
@@ -149,6 +152,7 @@ input{
    /* enlaces de los items del menu desplegable */
    
     ul ul a {
+
     line-height:120%;
     padding:10px 15px;
    }
@@ -199,6 +203,7 @@ input{
         text-align: center;
         padding: 0;
         height: 40px;
+        
     }
     .nav_lista_navegacion .menu{
         position: fixed;
@@ -223,13 +228,12 @@ input{
         
     }
     
-    .menu li a{
-        padding-top: 40px;
-    }
-    
     .nav_lista_navegacion .menu li a{
-        font-size: 20px;
-        padding: 25px;
+        font-size: 15px;
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom:10px;
+        
         
     }
     .menu li a:hover, li a.active{
@@ -257,9 +261,6 @@ input{
         padding:0;          
        }
     
-    
-
-
     .menu li:hover > ul li {
                                
         z-index: 18;
@@ -270,6 +271,7 @@ input{
 
     .menu li:hover > ul li a{
         padding: 25px;
+        font-size: 10px;
     }
     .menu li:hover > ul{
         width: 100%;
@@ -281,6 +283,8 @@ input{
     /*Cambio de posicion del apartado*/
 
     .menu li:hover{
+
+
     }
 
 }
