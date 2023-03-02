@@ -187,6 +187,7 @@ input{
 /**** TABLET ***/
 @media (max-width: 952px) {
     .logo{
+
         padding-left: 20px;
         
     }
@@ -196,6 +197,36 @@ input{
 }
 /*** MOVIL ***/
 @media(max-width: 858px){
+
+
+    .shop{
+        padding-top: 90px;
+        
+    }
+    
+    .box_container_nav{
+        display: block;
+        height: 200px;
+    }
+
+    .barra_busqueda{
+        padding-left: 10px;
+        padding-right:10px;
+    }   
+
+    .logo{
+        padding: 0px;
+        
+    }
+
+    .ico_nav{
+        float: left;
+        width: 100px;
+        padding-top: 25px;
+        padding-right: 10px;
+        
+    }
+
     .checkbtn{
         display: block;
     }
