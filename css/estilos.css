@@ -200,18 +200,21 @@ input{
 
 
     .shop{
-        padding-top: 90px;
+        display: none;
         
     }
     
     .box_container_nav{
         display: block;
-        height: 200px;
+        height: 170px;
     }
 
     .barra_busqueda{
+        
         padding-left: 10px;
         padding-right:10px;
+        width: 200px;
+     
     }   
 
     .logo{
@@ -280,6 +283,8 @@ input{
     #check:checked ~ .nav_lista_navegacion .menu{
         left: 65%;
     }
+
+
 
     /* DESPLEGABLE MOVIL*/
     
